@@ -1,8 +1,8 @@
 <div class="min-h-screen flex flex-col items-center z-20 mt-6">
     <div class="flex flex-col justify-center items-center h-[60vh] w-full font-megrim gap-6">
         <div class="flex flex-col items-center text-4xl">
-            <div>ARTISTS;</div>
-            <div>MASTERPIECES IN MOTION</div>
+            <div>Artists;</div>
+            <div>Masterpieces in Motion</div>
         </div>
         <div class="font-dosis">
             Crafting Dreams into Stunning Wearable Art

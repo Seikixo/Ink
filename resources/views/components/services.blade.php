@@ -11,6 +11,4 @@
         </div>
     </div>
     <img class="absolute" src="{{ asset('images/bg-3.jpg')}}" alt="">
-
-
 </div>
