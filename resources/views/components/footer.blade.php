@@ -1,14 +1,18 @@
-<div class="h-[60vh] w-full mt-14">
-    <div class="w-full flex justify-center bottom-5 p-2 tracking-widest font-semibold font-dosis bg-custom-green text-white">
+<div class="min-h-screen bottom-0 w-full flex flex-col">
+
+    <div class="w-full flex z-40 justify-center p-2 tracking-widest font-semibold font-dosi text-white hover:bg-custom-green cursor-pointer">
         <p>INQUIRE NOW</p>
     </div>
 
-   <div class="relative h-[80vh] w-full flex flex-col">
-        <div class="static h-[80vh] w-full">
-            <img class="h-[80vh] w-full" src="{{ asset('images/bg-2.jpg') }}" alt="">
+    <!-- Main Content -->
+    <div class="relative w-full flex flex-col">
+        <!-- Background Image -->
+        <div class="min-h-screen static w-full">
+            <img class="h-screen w-full" src="{{ asset('images/bg-2.jpg') }}" alt="">
         </div>
 
-        <div class="absolute grid grid-cols-3 grid-rows-1 h-[80vh] w-full text-white px-36 py-20">
+        <!-- Content Grid -->
+        <div class="absolute grid grid-cols-3 grid-rows-1 w-full text-white px-36 py-20">
             <div class="flex flex-col gap-10">
                 <p class="font-megrim text-4xl">
                     Location
@@ -17,7 +21,6 @@
                     Davao City, Philippines
                 </p>
                 <div id="map" class="h-[40vh] w-full rounded shadow-lg"></div>
-                
             </div>
             <div class="flex flex-col items-center gap-4">
                 <img class="size-40" src="{{ asset('images/logo-footer.png') }}" alt="">
@@ -31,7 +34,7 @@
                 </div>
                 <div class="flex flex-col items-center gap-6">
                     <p class="font-megrim text-4xl">Socials</p>
-                    <div class="flex items-center gap-6" >
+                    <div class="flex items-center gap-6">
                         <img class="size-8" src="{{ asset('images/facebook.png') }}" alt="">
                         <img class="size-8" src="{{ asset('images/instagram.png') }}" alt="">
                         <img class="size-8" src="{{ asset('images/tik-tok.png') }}" alt="">
@@ -45,10 +48,13 @@
             </div>
         </div>
 
-        <div class="flex justify-center absolute h-[10%] border border-t-2 w-full bottom-0 text-white py-2">
-            <p>Copyright &copy; Tattoo Website. All Rights Reserved. Designed and Developed by R Web Solutions Corp.</p>
+        <!-- Copyright Section -->
+        <div class="absolute bottom-0 w-full mb-5">
+            <div class="flex justify-center items-center border-t border-white py-2 text-white">
+                <p>Copyright &copy; Tattoo Website. All Rights Reserved. Designed and Developed by R Web Solutions Corp.</p>
+            </div>
         </div>
-   </div>
+    </div>
 </div>
 
 <script>

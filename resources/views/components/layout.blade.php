@@ -16,7 +16,8 @@
         @vite('resources/css/app.css')
     </head>
     <body >
-        <div class="bg-custom-brown min-h-screen z-0">
+        <div class="min-h-screen z-0 relative">
+            <img class="absolute z-0 min-h-screen" src="{{asset('images/bg-1.jpg')}}" alt="">
             {{ $slot }}
         </div>
     </body>

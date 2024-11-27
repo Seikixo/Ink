@@ -1,4 +1,4 @@
-<div class="flex h-[50vh] flex-col relative mt-44 text-white">
+<div class="flex h-[50vh] flex-col relative mt-44 text-white shadow-[-1px_63px_39px_50px_#B1C2D6]">
     <div class="flex flex-col w-full h-full absolute justify-center items-center gap-20">
         <div class="flex flex-col items-center z-40 gap-10">
             <p class="font-megrim text-4xl">Services;</p>

@@ -1,5 +1,5 @@
     <div class="min-h-screen flex flex-col mt-28">
-        <div class="flex flex-col justify-center items-center h-[30vh] gap-10">
+        <div class="flex z-40 flex-col justify-center items-center h-[30vh] gap-10">
             <p class="font-megrim text-4xl">Our Works</p>
             <p class="font-dosis">Ink Your Memories, Wear Your Story</p>
         </div>
